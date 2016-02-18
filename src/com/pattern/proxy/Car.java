@@ -5,8 +5,8 @@ import java.util.Random;
 public class Car implements Moveable{
     @Override
     public void move() {
-        long starttime = System.currentTimeMillis();
-        System.out.println("开始行驶..");
+//        long starttime = System.currentTimeMillis();
+//        System.out.println("开始行驶..");
 
         try {
             Thread.sleep(new Random().nextInt(1000));
@@ -15,8 +15,8 @@ public class Car implements Moveable{
             e.printStackTrace();
         }
 
-        long endtime = System.currentTimeMillis();
-        System.out.println("结束行驶..行驶时间:"
-                + (endtime - starttime) + "毫秒");
+//        long endtime = System.currentTimeMillis();
+//        System.out.println("结束行驶..行驶时间:"
+//                + (endtime - starttime) + "毫秒");
     }
 }
