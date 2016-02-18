@@ -2,7 +2,7 @@ package com.pattern.proxy;
 
 import java.util.Random;
 
-public class Car2 extends Car{
+public class CarTimeProxy extends Car{
     @Override
     public void move() {
         long starttime = System.currentTimeMillis();

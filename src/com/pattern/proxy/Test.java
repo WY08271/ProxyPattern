@@ -5,8 +5,8 @@ public class Test {
 //        Car car = new Car();
 //        car.move();
 
-//        Car2 car2 = new Car2();
-//        car2.move();
+//        CarTimeProxy carTimeProxy = new CarTimeProxy();
+//        carTimeProxy.move();
 
         Car car = new Car();
         Car3 car3 = new Car3(car);
